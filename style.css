@@ -135,3 +135,7 @@ footer {
         overflow-wrap: anywhere;
     }
 }
+/* Prueba 1: Mejorar los títulos */
+h1 {
+    text-align: center;
+}
