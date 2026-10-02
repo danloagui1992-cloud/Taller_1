@@ -142,7 +142,10 @@ footer {
         padding: 5px;
     }
 
-    input, textarea, select, button {
+    input,
+    textarea,
+    select,
+    button {
         width: 100%;
     }
 
@@ -160,7 +163,10 @@ footer {
     padding: 20px;
     text-align: center;
     border: 1px solid #cccccc;
-/* Prueba 1: Mejorar los títulos */
-h1 {
-    text-align: center;
+
+    /* Prueba 1: Mejorar los títulos */
+    h1 {
+        text-align: center;
+    }
+
 }
