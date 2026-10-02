@@ -52,8 +52,8 @@
             <table>
                 <thead>
                     <tr>
-                        <th>Nombre</th>
-                        <th>Rol</th>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Rol</th>
                     </tr>
                 </thead>
 
@@ -70,26 +70,24 @@
                 </tbody>
             </table>
         </section>
+
         <section>
+            <h2>Contacto</h2>
 
-            <section>
-                <h2>Contacto</h2>
+            <form>
 
-                <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
 
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" id="nombre" name="nombre">
+                <label for="correo">Correo:</label>
+                <input type="email" id="correo" name="correo">
 
-                    <label for="correo">Correo:</label>
-                    <input type="email" id="correo" name="correo">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje"></textarea>
 
-                    <label for="mensaje">Mensaje:</label>
-                    <textarea id="mensaje" name="mensaje"></textarea>
+                <button type="submit">Enviar</button>
 
-                    <button type="submit">Enviar</button>
-
-                </form>
-            </section>
+            </form>
         </section>
 
         <section>
