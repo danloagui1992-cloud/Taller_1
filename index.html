@@ -1,61 +1,112 @@
 <!doctype html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller Práctico 1</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <body>
-    <h1>Taller Práctico 1</h1>
+    <header>
+        <h1>Taller Práctico 1</h1>
+        <p>Daniel Aguilar - Andrés Tapia</p>
+    </header>
 
-    <h2>Bienvenidos</h2>
+    <nav>
+        <h2>Menú</h2>
 
-    <p>Daniel Aguilar - Andrés Tapia.</p>
+        <p>Home</p>
+        <p>Resumen</p>
+        <p>Historia</p>
+        <p>Contactos</p>
+    </nav>
 
-    <h3>Menú</h3>
+    <main>
 
-    <p>Home</p>
-    <p>Resumen</p>
-    <p>Historia</p>
-    <p>Contactos</p>
+        <section>
+            <h2>Bienvenidos</h2>
 
-    <h2>Galería</h2>
+            <p>
+                Bienvenidos al proyecto desarrollado para practicar HTML,
+                CSS, Git y GitHub.
+            </p>
+        </section>
 
-    <div class="galeria">
-        <div>Elemento 1</div>
-        <div>Elemento 2</div>
-        <div>Elemento 3</div>
-        <div>Elemento 4</div>
-    </div>
-    <section>
-      <h2>Integrantes</h2>
+        <section>
+            <h2>Galería</h2>
 
-      <table>
-        <tr>
-          <th>Nombre</th>
-          <th>Rol</th>
-        </tr>
-        <tr>
-          <td>Daniel Aguilar</td>
-          <td>Estudiante A</td>
-        </tr>
-        <tr>
-          <td>Andrés Tapia</td>
-          <td>Estudiante B</td>
-        </tr>
-      </table>
-    </section>
-    <section>
-      <h2>Acerca de</h2>
+            <div class="galeria">
+                <div>Elemento 1</div>
+                <div>Elemento 2</div>
+                <div>Elemento 3</div>
+                <div>Elemento 4</div>
+            </div>
+        </section>
 
-      <p>
-        Este proyecto fue desarrollado para practicar HTML, CSS, Git y GitHub
-        mediante trabajo colaborativo.
-      </p>
-    </section>
-  </body>
+        <section>
+            <h2>Integrantes</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Rol</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Daniel Aguilar</td>
+                        <td>Estudiante A</td>
+                    </tr>
+
+                    <tr>
+                        <td>Andrés Tapia</td>
+                        <td>Estudiante B</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+
+            <section>
+                <h2>Contacto</h2>
+
+                <form>
+
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre">
+
+                    <label for="correo">Correo:</label>
+                    <input type="email" id="correo" name="correo">
+
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje"></textarea>
+
+                    <button type="submit">Enviar</button>
+
+                </form>
+            </section>
+        </section>
+
+        <section>
+            <h2>Acerca de</h2>
+
+            <p>
+                Este proyecto fue desarrollado para practicar HTML, CSS,
+                Git y GitHub mediante trabajo colaborativo.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Proyecto desarrollado por Daniel Aguilar y Andrés Tapia.</p>
+    </footer>
+
+</body>
+
 </html>
