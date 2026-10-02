@@ -133,12 +133,17 @@ footer {
 
     table {
         font-size: 12px;
+        display: block;
+        overflow-x: auto;
     }
 
     th,
     td {
         padding: 5px;
-        overflow-wrap: anywhere;
+    }
+
+    input, textarea, select, button {
+        width: 100%;
     }
 
 
